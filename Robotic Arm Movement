@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int i;
+
+    printf("Robotic Arm Joint Movement Simulation\n");
+
+    for(i= 0; i<= 90; i = i + 10)
+    {
+        printf("Current Joint Angle: %d degrees\n", i);
+    }
+
+    printf("Robotic Arm Reached Final Position.\n");
+
+    return 0;
+}
